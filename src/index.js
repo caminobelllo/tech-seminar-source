@@ -165,4 +165,3 @@ app.listen(3000, () => {
   console.log(`[${ENV}] ${SERVICE} ${VERSION} 시작됨 → http://localhost:3000/status`);
 });
 
-process.exit(1);
