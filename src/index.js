@@ -1,3 +1,6 @@
+console.log("배포 오류");
+process.exit(1);
+
 const express = require('express');
 const path    = require('path');
 const app     = express();
