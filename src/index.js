@@ -1,6 +1,3 @@
-console.log("배포 오류");
-process.exit(1);
-
 const express = require('express');
 const path    = require('path');
 const app     = express();
@@ -168,5 +165,5 @@ app.listen(3000, () => {
   console.log(`[${ENV}] ${SERVICE} ${VERSION} 시작됨 → http://localhost:3000/status`);
 });
 
-console.log("배포 오류");
-process.exit(1);
+
+console.log("정상 배포 시나리오 테스트");
