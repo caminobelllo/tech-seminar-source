@@ -41,7 +41,7 @@ jobs:
           git clone https://x-access-token:${{ secrets.GITOPS_REPO_TOKEN }}@github.com/caminobelllo/tech-seminar-gitops.git
           cd tech-seminar-gitops
 
-          for env in dev staging; do
+          for env in dev staging prod; do
             sed -i "s|image:.*|image: $IMAGE|g" manifests/$env/deployment.yaml
           done
 
