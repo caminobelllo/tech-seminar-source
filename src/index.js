@@ -164,7 +164,3 @@ app.get('/health', (req, res) => {
 app.listen(3000, () => {
   console.log(`[${ENV}] ${SERVICE} ${VERSION} 시작됨 → http://localhost:3000/status`);
 });
-
-
-console.log("장애 배포 테스트 ..... 77");
-process.exit(1);
