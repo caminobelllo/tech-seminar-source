@@ -166,4 +166,4 @@ app.listen(3000, () => {
 });
 
 
-console.log("정상 배포 테스트!!!");
+console.log("정상 배포 테스트");
