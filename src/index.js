@@ -166,5 +166,5 @@ app.listen(3000, () => {
 });
 
 
-console.log("장애 배포 테스트 ..... 44");
+console.log("장애 배포 테스트 ..... 66");
 process.exit(1);
